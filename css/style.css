@@ -1,0 +1,318 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(rgba(218, 34, 255, 0.6),
+      rgb(226, 194, 178)),
+    url(/img/photo.jpeg) center center fixed;
+  background-size: cover;
+  border-top: 5px solid rgba(118, 195, 143, 1);
+
+  padding-top: 30px;
+  font-family: georia;
+  color: white;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+button {
+  border-radius: 6px;
+  border: none;
+  background-color: rgba(118, 195, 143, 1);
+  height: 38px;
+  width: 81px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 30px;
+  color: white;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-left: 80px;
+}
+
+.two {
+  display: flex;
+  padding-right: 50px;
+  padding-left: 80px;
+}
+
+#two-part2-1 {
+  border-radius: 50%;
+  height: 433px;
+  width: 433px;
+  border: 25px solid;
+}
+
+.two-part1 {
+  padding-left: 70px;
+  padding-right: 100px;
+  padding-top: 120px;
+  font-size: 1.2em;
+}
+
+.two-part2 {
+  padding-left: 150px;
+  padding-right: 60px;
+}
+
+#two-part-1bt {
+  width: 145px;
+  height: 38px;
+  margin-top: 20px;
+}
+
+#img1 {
+  height: 123px;
+  width: 123px;
+  border-radius: none;
+  margin-left: 50px;
+  margin-right: 40px;
+  margin-top: 20px;
+
+}
+
+.third-one {
+  padding-top: 60px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-left: 10px;
+  padding-bottom: 40px;
+  padding-right: 50px;
+  padding-left: 80px;
+}
+
+.third-one-1 {
+  height: 308px;
+  width: 228px;
+  background-color: rgb(255, 255, 255, 1);
+
+}
+
+.third-one-1:hover {
+  height: 308px;
+  width: 228px;
+  background-color: rgba(118, 195, 143, 1);
+
+}
+
+.third-one-2 {
+  height: 308px;
+  width: 228px;
+  background-color: rgb(255, 255, 255, 1);
+
+}
+
+
+#one {
+  margin-left: 50px;
+  font-size: 1.5 em;
+}
+
+#one1 {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.new {
+
+  border: 2px solid black;
+}
+
+.four {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-around;
+  padding-right: 50px;
+  padding-left: 80px;
+}
+
+.five {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-around;
+  padding-right: 50px;
+  padding-left: 80px;
+
+}
+
+img {
+  height: 200px;
+  width: 380px;
+  border: 4px solid white;
+
+}
+
+img:hover {
+  border: 4px solid rgba(118, 195, 143, 1);
+
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+
+  margin: 0 auto;
+
+}
+
+.container .content {
+  position: absolute;
+
+  bottom: 0;
+
+  background: rgb(0, 0, 0);
+
+  background: rgba(0, 0, 0, 0.5);
+
+  color: #f1f1f1;
+
+  width: 100%;
+
+  padding: 2px;
+
+}
+
+.content:hover {
+  width: 100%;
+
+  padding: 2px;
+  background-color: #f1f1f1;
+  display: block;
+  backface-visibility: hidden;
+}
+
+.six {
+  background-color: rgba(43, 43, 43, 1);
+  width: 100%;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+
+.six-one {
+  padding-right: 55px;
+  padding-left: 50px;
+  font-family: georia;
+  width: 287px;
+
+
+}
+
+.us {
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+.six-three {
+  width: 219px;
+  height: 222px;
+  ;
+}
+
+h3 {
+  padding-top: 50px;
+}
+
+h4,
+h5 {
+  padding-top: 20px;
+  color: rgba(118, 195, 143, 1);
+}
+
+span {
+  color: azure;
+}
+
+.six-two2 {
+  text-decoration: underline;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 228px;
+  padding-right: 30px;
+}
+
+.login-form input {
+  margin-top: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial-boldmt;
+  width: 228px;
+}
+
+.login-form input[type="text"] {
+
+  height: 113px;
+  top: 1561px;
+  left: 753px;
+
+  font-size: 1.5em;
+
+}
+
+.login-form input[type="submit"] {
+  background-color: rgba(118, 195, 143, 1);
+  font-family: Georgia;
+  fill: #FFFFFF;
+  color: #fff;
+  width: 83px;
+
+}
+
+/**footer*/
+
+footer {
+  background-color: rgba(43, 43, 43, 1);
+  height: 80px;
+
+
+  display: flex;
+
+  justify-content: space-between;
+  padding-bottom: 30px;
+
+}
+
+.footer-h3 {
+  font-family: georgia;
+  font-size: 12px;
+  height: 13px;
+  width: 322px;
+
+  padding-left: 30px;
+
+}
+
+.os {
+  height: 13px;
+  width: 170px;
+  font-size: 12px;
+
+
+}
+
+.seven {
+  border-top: 2px solid black;
+
+}
